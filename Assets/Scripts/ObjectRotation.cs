@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectRotation : MonoBehaviour
 {
 
-public Vector3 vector;
+[SerializeField] Vector3 vector;
 
     // Start is called before the first frame update
     void Start()
