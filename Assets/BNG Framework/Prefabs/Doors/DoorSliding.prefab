@@ -839,6 +839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7812599876594986476}
+  - component: {fileID: 1097897865301219077}
   m_Layer: 0
   m_Name: DoorSliding
   m_TagString: Untagged
@@ -863,6 +864,19 @@ Transform:
   m_Father: {fileID: 1428201521180344965}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -94.462, z: 0}
+--- !u!114 &1097897865301219077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467035069281558561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f898866bf4d92974bbec3fe1ecd41975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vector: {x: 5, y: 5, z: 5}
 --- !u!1 &7403130634465603132
 GameObject:
   m_ObjectHideFlags: 0

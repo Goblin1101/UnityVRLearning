@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class ObjectRotation : MonoBehaviour
 {
+
+public Vector3 vector;
+
     // Start is called before the first frame update
     void Start()
     {
         
     }
+    
+
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(30,30,30);
+
+        transform.Rotate(vector);
     }
 }
