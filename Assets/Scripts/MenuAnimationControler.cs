@@ -5,18 +5,34 @@ using UnityEngine;
 public class MenuAnimationControler : MonoBehaviour
 {
 
-    Animator animator;
+    
+    GameObject subMenu;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        animator = this.GetComponent<Animator>();
-        animator.Play("MainMenuClose");
+    
+
+
+
+    public void OpenLaunchMenu (){
+
+        subMenu = GameObject.Find("GameModes");
+        subMenu.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    public void CloseLaunchMenu(){
+        subMenu = GameObject.Find("GameModes");
+        subMenu.SetActive(false);
+    }
+
+    public void OpenInstructionMenu(){
+
         
+subMenu = GameObject.Find("Instructions");
+        subMenu.SetActive(true);
+
+    }
+
+    public void CloseInstructionMenu(){
+subMenu = GameObject.Find("Instructions");
+        subMenu.SetActive(false);
     }
 }
