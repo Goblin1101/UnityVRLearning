@@ -4786,7 +4786,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: A_OpenLaunchMenu
+          m_StringArgument: LaunchOpen
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &638464349
@@ -6270,7 +6270,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: A_OpenInstructionsMenu
+          m_StringArgument: InstOpen
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &808375935
